@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    height: 81px;
+    background-color: #02527E;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.center-content {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav ul li {
+    margin-left: 50px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.hero {
+    height: calc(100% - 81px);
+    background-image: url("/images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
+    
+}
+
+.hero h1 {
+    font-size: 92px;
+    line-height: 107px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    max-width: 901px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 69px;
+    z-index: 2;
+    
+}
+
+.contact-icon-frame {
+    width: 80px;
+    aspect-ratio: 1;
+    background-color: #E6F1F8;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    bottom: 70px;
+    right: 90px;
+    display: flex;
+}
+
+.contact-icon-frame a {
+    margin: auto;
+}
+
+.services {
+    padding: 118px 0;
+}
+
+.center-heading {
+    margin: 0 auto;
+    max-width: 637px;
+    font-size: 43px;
+    line-height: 54px;
+    text-align: center;
+}
