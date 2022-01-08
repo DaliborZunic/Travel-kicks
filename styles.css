@@ -165,6 +165,8 @@ body {
   height: 594px;
   background:linear-gradient(269.99deg, #02527E 0.01%, rgba(2, 82, 126, 0.72) 63.85%, rgba(2, 82, 126, 0.555175) 83.22%, rgba(2, 82, 126, 0) 99.99%),
    url("./images/welcome-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
 }
 
