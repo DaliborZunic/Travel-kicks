@@ -70,7 +70,7 @@ body {
 
 .hero {
   height: calc(100% - 81px);
-  background-image: url("/images/hero-bg.jpg");
+  background-image: url("./images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -169,7 +169,7 @@ body {
   color: white;
   height: 594px;
   background:linear-gradient(269.99deg, #02527E 0.01%, rgba(2, 82, 126, 0.72) 63.85%, rgba(2, 82, 126, 0.555175) 83.22%, rgba(2, 82, 126, 0) 99.99%),
-   url("/images/welcome-bg.jpg");
+   url("./images/welcome-bg.jpg");
   display: flex;
 }
 
@@ -209,7 +209,7 @@ body {
 
 .articles-wrapper article header {
   flex: 0 1 182px;
-  background-image: url("/images/rab.jpg");
+  background-image: url("./images/rab.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -247,7 +247,7 @@ body {
 
 .categories {
   padding: 118px 0;
-  background: url("/images/waves-bg.svg"), #e6f1f8;
+  background: url("./images/waves-bg.svg"), #e6f1f8;
   background-repeat: no-repeat;
   background-position: right bottom;
 }
